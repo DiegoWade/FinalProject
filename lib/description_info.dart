@@ -21,9 +21,9 @@ class description_info extends StatelessWidget {
       child: Text(
         descriptionPlace,
         style: TextStyle(
-          fontSize: 16.0,
+          fontSize: 14.0,
           fontWeight: FontWeight.normal,
-          color: Colors.black45
+          color: Colors.black38
         )
       )
     );

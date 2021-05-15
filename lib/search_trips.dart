@@ -5,7 +5,7 @@ class SearchTrips extends StatelessWidget{
   Widget build(BuildContext context) {
     // TODO: implement build
     return Container(
-      color: Colors.blueAccent,
+      color: Colors.lightBlueAccent,
     );
   }
 

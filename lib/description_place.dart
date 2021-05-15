@@ -24,7 +24,7 @@ class DescriptionPlace extends StatelessWidget {
             style: const TextStyle(
               fontSize: 16.0,
               fontWeight: FontWeight.normal,
-              color:Colors.black45,
+              color:Colors.black38,
             )
 
         )

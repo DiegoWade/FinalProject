@@ -24,10 +24,10 @@ class ButtonPurple extends StatelessWidget {
             left: 20.0,
             right: 20.0
         ),
-        height: 50.0,
-        width: 180.0,
+        height: 60.0,
+        width: 160.0,
         decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(30.0),
+            borderRadius: BorderRadius.circular(20.0),
             gradient: LinearGradient(
                 colors: [
                   Color(0xFF4268D3),
@@ -46,9 +46,9 @@ class ButtonPurple extends StatelessWidget {
           child: Text(
             buttonText,
             style: TextStyle(
-                fontSize: 18.0,
+                fontSize: 16.0,
                 fontFamily: "Lato",
-                color: Colors.white
+                color: Colors.pink
             ),
 
           ),

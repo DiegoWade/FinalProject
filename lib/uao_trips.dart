@@ -36,13 +36,13 @@ class _UaoTrips extends State<UaoTrips> {
     return  MaterialApp(
         title: "Uao Trips",
         theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.deepOrange,
     ),
     home: Scaffold(
       body: widgetsChildren[indexTap],
       bottomNavigationBar: Theme(
         data: Theme.of(context).copyWith(
-            canvasColor: Colors.blueGrey,
+            canvasColor: Colors.purple.shade50,
             primaryColor: Colors.black38
         ),
         child: BottomNavigationBar(
